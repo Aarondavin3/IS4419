@@ -1,0 +1,283 @@
+h1{
+	text-align: center;
+	font-family: 'Lucida Console';
+	font-size: 35px;
+}
+
+h3{
+	
+	text-align: center;
+	font-family: 'Lucida Console';
+	font-size: 25px;
+}
+h5{
+	text-align: center;
+	font-family: 'Lucida Console';
+	font-size: 13px;
+}
+
+
+
+.container{
+	top:2em;
+	position:relative;
+}
+
+.navpanel{
+	position:absolute;
+	top:6em;
+	left:28em;
+	}
+	
+.navpanel a {
+	float:center;
+	text-align:center;
+	font-size:18px;
+	color:#8fb0ab;
+	padding: 8px 10px;
+	text-decoration: none;
+}
+
+.navpanel a:hover{
+	background-color:#000000;
+	
+}
+
+.navpanel [name=user]{
+	position:relative;
+	left:15em;
+	font-size:18px;
+	font-family: 'Lucida Console';
+	background-color:transparent;
+	padding: 8px 10px;
+	color:#8fb0ab;
+	cursor:pointer;
+	border:none;
+}
+
+.navpanel [name=cart]{
+	position:relative;
+	left:17em;
+	background-color:transparent;
+	padding: 8px 10px;
+	color:#8fb0ab;
+	cursor:pointer;
+	border:none;
+}
+	
+.navpanel button:hover{
+	background-color:#000000;
+}
+	
+.imageheader{
+	top:9em;
+	position:absolute;
+	height:36em;
+	width:98%;	
+	left:1.5em;
+	
+
+}
+
+.imageheader img{
+	object-fit:cover;
+	height:100%;
+	width:98%;
+}
+
+.banner {
+	left:1.5em;
+	top:47em;
+	height:23em;
+	width:25%;
+	position:absolute;
+	border:solid thin black;
+	
+	border-color:#8fb0ab;
+}
+
+.banner h3{
+	position:relative;
+	top:1em;
+}
+
+.banner h5{
+	position:relative;
+	top:-1em;
+}
+
+.banner img {
+	object-fit:cover;
+	position:relative;
+	top:-1em;
+	
+	text-align:center;
+	width:315px;
+	height:266px;
+}
+
+.banner:hover{
+	background-color:#8fb0ab;
+	cursor:pointer;
+}
+hr.style {
+	position:relative;
+	top:0.5em;
+	height: 30px; 
+	width:105px;
+	border-style: solid; 
+	border-color: #8c8b8b; 
+	border-radius: 20px; 
+}
+
+.parafoil {
+	left:30em;
+	top:47em;
+	height:23em;
+	width:25%;
+	position:absolute;
+	border:solid thin black;
+	
+	border-color:#8fb0ab;
+}
+
+.parafoil:hover{
+	background-color:#8fb0ab;
+	cursor:pointer;
+}
+
+.parafoil h3{
+	position:relative;
+	top:1em;
+}
+
+.parafoil h5{
+	position:relative;
+	top:-1em;
+}
+
+.parafoil img {
+	bject-fit:cover;
+	position:relative;
+	top:-1em;
+	
+	text-align:center;
+	width:315px;
+	height:266px;
+}
+
+.diamond {
+	left:57.5em;
+	top:47em;
+	height:23em;
+	width:25%;
+	position:absolute;
+	border:solid thin black;
+	border-color:#8fb0ab;
+}
+
+.diamond:hover{
+	background-color:#8fb0ab;
+	cursor:pointer;
+}
+
+.diamond h3{
+	position:relative;
+	top:1em;
+}
+
+.diamond h5{
+	position:relative;
+	top:-1em;
+}
+
+.diamond img {
+	bject-fit:cover;
+	position:relative;
+	top:-1em;
+	
+	text-align:center;
+	width:315px;
+	height:266px;
+}
+
+.roots{
+	height:23em;
+	width:55%;
+	position:absolute;
+	left:16em;
+	top:73em
+	
+}
+
+hr.style1 {
+	position:absolute;
+	top:1em;
+	height: 30px; 
+	width:170px;
+	border-radius: 20px; 
+	border-color: #8c8b8b; 
+	
+}
+	
+
+.roots h2 {
+	text-align: left;
+	font-family: 'Lucida Console';
+	font-size: 30px;
+}
+
+.roots p{
+	top:4em;
+	left:-14.5em;
+	width:37em;
+	position:absolute;
+}
+
+.roots img{
+	position:relative;
+	height:125%;
+	width:85%;
+	float:right;
+	left:18em;
+}
+
+.register {
+	height:45em;
+	width:58%;
+	position:absolute;
+	top:104.5em;
+	left:1.5em;
+	
+}
+
+.register img {
+	position:relative;
+	height:60%;
+	width:85%;
+	float:left;
+	
+}
+
+.register1{
+	position:absolute;
+	background-color:#70B5C3;
+	float:right;
+	height:27em;
+	width:37em;
+	top:104.5em;
+	left:40.4em;
+}
+
+
+
+footer {
+ 
+  position:absolute;
+  text-align: center;
+  color: black;
+  font-family: 'Lucida Console';
+  font-size: 20px;
+  top:120em;
+  width:100%;
+}
